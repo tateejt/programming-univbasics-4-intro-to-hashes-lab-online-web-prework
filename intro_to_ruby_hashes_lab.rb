@@ -25,7 +25,10 @@ end
 
 def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
-  if hash()
+  if read_from_hash[:name]
+    puts "name is present!"
+  else
+    puts "name is not present"
 end
 
 def update_counting_hash(hash, key)
